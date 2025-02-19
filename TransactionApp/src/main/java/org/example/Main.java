@@ -12,17 +12,6 @@ public class Main {
         TransactionManager manager = new TransactionManager();
         Scanner sc = new Scanner(System.in);
 
-        // Supplier: 임의의 트랜잭션 생성
-        /*Supplier<Transaction> randomTransactionSupplier = () -> {
-            // 간단히 ID는 난수, type은 고정, amount도 난수
-            int randId = (int)(Math.random() * 1000);
-            double randAmount = Math.random() * 100000;
-            return new Transaction(randId, "PAYMENT", randAmount);
-        };*/
-
-
-
-
         boolean run = true;
         while (run) {
             System.out.println("\\n=== 메뉴 ===");
